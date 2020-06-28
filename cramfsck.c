@@ -53,7 +53,8 @@
 #define _LINUX_STRING_H_
 #include <linux/fs.h>
 #include <linux/cramfs_fs.h>
-#include <zlib.h>
+//#include <zlib.h>
+#include "zlib.h"
 
 /* Exit codes used by fsck-type programs */
 #define FSCK_OK          0	/* No errors */
