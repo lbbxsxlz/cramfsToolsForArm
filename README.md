@@ -11,3 +11,9 @@ make HOST=arm-himix200-linux clean;make HOST=arm-himix200-linux
 
 当HOST未指定时，默认编译基于x86_64架构的可执行文件
 
+
+## 工具使用
+mkcramfs filePath file-cramfs 
+cramfsck file-cramfs -x /var/tmp/filePath
+
+
